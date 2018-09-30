@@ -8,115 +8,56 @@
   <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-
-  <!-- WORKSHOP
-    
-    - Explanation of a front end development project
-    - Explanation of the structure of HTML
-    - Explanation of the different HTML elements
-    - TODOS 1 - 6: HTML
-    - Explanation of CSS structure and the different selectors
-    - Explanation of CSS layout elements
-    - Explanation of CSS styling elements
-    - TODOS 7 - 16: CSS
-    - Intermediate animation topics if time
-
-  -->
-
-
-  <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
   <header id="navbar">
-
     <!-- TODO (1): Fill in Navbar HTML with the header and a href tags-->
-    <!-- <div >
-      <h2 id="navbar-header"><a href="#">Mountains</a></h2>
-    </div>
-    <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-    </nav> -->
-    <h2 id="navbar-header"> <a href="#"> Mountains</a></h2>
+    <!-- TODO (6): Fill in the Navbar HTML elements with the proper ids and classes-->
+    <h2 id="navbar-header"><a href="#">Mountains</a></h2>
     <nav>
       <li> <a href="#">About</a> </li>
       <li> <a href="#">Sign In</a> </li>
     </nav>
-    <!-- change home to sign in -->
-    
-    <!-- TODO (6): Fill in the Navbar HTML elements with the proper ids and classes-->
   </header>
   
   <section class="cards-container">
-    
     <!-- TODO (2): Create the section header and apply the correct classes-->
-    <div class="cards-title">Welcom to Hack at UCI!!!</div>
-
+    <div class="cards-title"><span class="cards-title-animation">Welcome to Hack at UCI!!!</span></div>
     <div class="cards">
-        <!-- NOTE: Example "card" component -->
-        <div class="card">    
-          <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-          <!-- <div class="top-left">Soaring Mountains</div>  
-          <div class="bottom-right">by Bruce Wayne</div> -->
+      <!-- TODO (3): Build the "card" component one element at a time starting with the "card" div-->  
+      <!-- TODO (4): Practice developing one "card" component on your own-->
+      <!-- TODO (5): Copy and paste the "card" component so that there are 6 total. This will be used to demonstrate the layout properties later-->
+      <div class="card">
           <img src="assets/img/mountain1.jpg" alt="image of a mountain">
-          <div class="top-left">Soaring Mountains</div>
-          <div class="bottom-right">by Bruce Wayne</div>
-        </div>
-        <div class="card">    
-            <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-            <!-- <div class="top-left">Soaring Mountains</div>  
-            <div class="bottom-right">by Bruce Wayne</div> -->
-            <img src="assets/img/mountain2.jpg" alt="image of a mountain">
-            <div class="top-left">Soaring Mountains</div>
-            <div class="bottom-right">by Bruce Wayne</div>
-          </div>
-          <div class="card">    
-              <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-              <!-- <div class="top-left">Soaring Mountains</div>  
-              <div class="bottom-right">by Bruce Wayne</div> -->
-              <img src="assets/img/mountain3.jpg" alt="image of a mountain">
-              <div class="top-left">Soaring Mountains</div>
-              <div class="bottom-right">by Bruce Wayne</div>
-            </div>
-            <div class="card">    
-                <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-                <!-- <div class="top-left">Soaring Mountains</div>  
-                <div class="bottom-right">by Bruce Wayne</div> -->
-                <img src="assets/img/mountain4.jpg" alt="image of a mountain">
-                <div class="top-left">Soaring Mountains</div>
-                <div class="bottom-right">by Bruce Wayne</div>
-              </div>
-            <div class="card">    
-                <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-                <!-- <div class="top-left">Soaring Mountains</div>  
-                <div class="bottom-right">by Bruce Wayne</div> -->
-                <img src="assets/img/mountain1.jpg" alt="image of a mountain">
-                <div class="top-left">Soaring Mountains</div>
-                <div class="bottom-right">by Bruce Wayne</div>
-              </div>
-              <div class="card">    
-                  <!-- <img src="assets/img/mountain1.jpg" alt="Something"> -->
-                  <!-- <div class="top-left">Soaring Mountains</div>  
-                  <div class="bottom-right">by Bruce Wayne</div> -->
-                  <img src="assets/img/mountain1.jpg" alt="image of a mountain">
-                  <div class="top-left">Soaring Mountains</div>
-                  <div class="bottom-right">by Bruce Wayne</div>
-                </div>
-        <!-- TODO (3): Build the "card" component one element at a time starting with the "card" div-->
-
-        <!-- TODO (4): Practice developing one "card" component on your own-->
-
-        <!-- TODO (5): Copy and paste the "card" component so that there are 6 total. This will be used to demonstrate the layout properties later-->
-
+          <div class="top-left show-text">Soaring Mountains</div>
+          <div class="bottom-right show-text">by Bruce Wayne</div>
+      </div>
+      <div class="card">
+          <img src="assets/img/mountain2.jpg" alt="image of a mountain">
+          <div class="top-left show-text">High Sierra</div>
+          <div class="bottom-right show-text">by Clark Kent</div>
+      </div>
+      <div class="card">
+          <img src="assets/img/mountain3.jpg" alt="image of a mountain">
+          <div class="top-left show-text">Long Journey</div>
+          <div class="bottom-right show-text">by Diana Princess</div>
+      </div>
+      <div class="card">
+          <img src="assets/img/mountain4.jpg" alt="image of a mountain">
+          <div class="top-left show-text">Misty Mountain</div>
+          <div class="bottom-right show-text">by Hal Jordon</div>
+      </div>
+      <div class="card">
+          <img src="assets/img/mountain5.jpeg" alt="image of a mountain">
+          <div class="top-left show-text">Mountain View</div>
+          <div class="bottom-right show-text">by Barry Allen</div>
+      </div>
     </div>
-    
   </section>
 
   <!-- TODO (15): Create the footer HTML elements-->
-
-  <!-- EXAMPLE FOOTER ELEMENT
+  <!-- EXAMPLE FOOTER ELEMENT -->
   <footer class="gallery-footer">
       <div> This is some type of footer</div>
       <div><i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></div>
   </footer>
-  -->
 </body>
 </html>
