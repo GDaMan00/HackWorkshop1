@@ -8,7 +8,7 @@ HTML stands for HyperText Markup Language. It is a language which allows us to w
 
 ### HTML TEMPLATE
 
-This is what the structure of an HTML Document
+This is what the structure of an HTML Document look like
 
 ```
 <!DOCTYPE html>
@@ -25,8 +25,21 @@ This is what the structure of an HTML Document
 </html>
 ```
 
-### Installing
+### Common HTML elements/tags
 
+* <!DOCTYPE> 	Defines the document type
+* <html>	Defines an HTML document
+* <head>	Defines information about the document
+* <title>	Defines a title for the document
+* <body>	Defines the document's body
+* <h1> to <h6>	Defines HTML headings
+* <p>	Defines a paragraph
+* <br>	Inserts a single line break
+* <!--...-->	Defines a comment
+* <ul> Defines a container for an unordered list
+* <ol> Defines a container for an ordered list
+* <li> Defines a single list items
+* <a href=""> Defines a hyperlink, which is used to link from one page to another. Href indicates the link's destination.
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
