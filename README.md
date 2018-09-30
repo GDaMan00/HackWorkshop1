@@ -27,8 +27,8 @@ This is what the structure of an HTML Document look like
 
 ### Common HTML elements/tags
 
-* <!DOCTYPE> 	Defines the document type
-* <html>	Defines an HTML document
+* \<!DOCTYPE> 	Defines the document type
+* \<html>	Defines an HTML document
 * <head>	Defines information about the document
 * <title>	Defines a title for the document
 * <body>	Defines the document's body
