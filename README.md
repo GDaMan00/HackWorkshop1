@@ -276,10 +276,14 @@ Reference Materials
 * W3 Schools JS (https://www.w3schools.com/js/) - Reference for JS
 * CSS Tricks (https://css-tricks.com/) - Helpful tutorials for CSS
 * Tutorials Point (https://www.tutorialspoint.com/) - Overall programming reference material
+* Learn html in Y minutes (https://learnxinyminutes.com/docs/html/) - fast guide on html
+* Learn css in Y minutes (https://learnxinyminutes.com/docs/css/) - fast guide on css
+* flexbox docs - (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Reference for flexbox
 
 Learning Platforms
 * Free Code Camp (https://www.freecodecamp.org/) - Front-end development learning platform
 * Code Academy (https://www.codecademy.com/) - General programming learning platform (includes front-end development)
+* froggy(flexbox) (https://flexboxfroggy.com/) - tutorial on flexbox
 
 
 
