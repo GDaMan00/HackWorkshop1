@@ -181,7 +181,8 @@ The CSS box model is the box that wraps every single HTML element. This model co
     /* "padding" specifies the spacing between the content inside of an element's box and the edge of the box */
     padding: 20px;
 
-    /* "border" specifies the styling of the edge of the box content
+    /* "border" specifies the styling of the edge of the box content */
+    border: 5px solid red;
 }
 ```
 
