@@ -178,6 +178,8 @@ div {background-color: red;}
 
 ### Text and Fonts
 
+### Animations
+
 ## Other Resources
 
 * [Name](https://url/) - example
