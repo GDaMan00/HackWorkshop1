@@ -1,14 +1,14 @@
 # Learn Frontend Workshop
 
-In this workshop we are going to teach you common components frontend developers typically build out for a website. You can use this readme as a reference material for HTML and CSS.
+In this workshop, we are going to teach you common components front-end developers typically build for websites. You can use this document as a reference material for HTML and CSS.
 
-## HTML DOCS
+## HTML Documentation
 
-HTML stands for HyperText Markup Language. It is a language which allows us to write pages for the world wide web. It is a markup language, it enables us to write webpages using code to indicate how text and data should be displayed. HTML files also end with the extension .html like index.html or foo.html.
+HTML stands for HyperText Markup Language. It is a language which allows us to write web pages. It is a markup language that enables us to write web pages using code to indicate how text and data should be displayed. HTML files also end with the extension ".html".
 
-### HTML TEMPLATE
+### HTML Template
 
-This is what the structure of an HTML Document look like
+Below is the common HTML structure
 
 ```
 <!DOCTYPE html>
@@ -25,9 +25,9 @@ This is what the structure of an HTML Document look like
 </html>
 ```
 
-### Common HTML elements/tags
+### Common HTML Elements/Tags
 
-* **<!DOCTYPE>** 	Defines the document type
+* **<!DOCTYPE>** - Defines the document type
 * **\<html>** - Defines an HTML document
 * **\<head>** - Defines information about the document
 * **\<title>** - Defines a title for the document
@@ -46,7 +46,7 @@ A step by step series of examples that tell you how to get a development env run
 * **\<section>** - Defines a container for elements
 * **\<span>** - Defines an inline container for elements(doesn't go to new line)
 
-Example of using the tags
+Example of tag usage
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -78,7 +78,7 @@ Example of using the tags
 </body>
 </html>
 ```
-### IDS vs CLASSES
+### Ids vs. Classes
 Ids are used to uniquely identify one element on the page while classes can be used to identify more than one element.
 
 ID example
@@ -93,11 +93,11 @@ Class example
 <div class="example">Some text</div>
 ```
 
-## CSS DOCS
+## CSS Documentation
 
-CSS (Cascading Style Sheets) is a language which specifies a page’s appearance. CSS does this by selecting an element within the html and style it.
+CSS (Cascading Style Sheets) is a language which specifies a page’s appearance. CSS does this by selecting an element within the HTML and styling it.
 
-### How to select elements with css
+### How to Select Elements with CSS
 
 Template of how css selects elements
 
@@ -108,44 +108,40 @@ selector { property: value; /* more properties...*/ }
 
 Examples of selecting elements
 ```
-/* You can target it using one of its CSS classes */
+/* Selecting by class */
 .class1 { }
 
-/* or its name */
+/* Selecting by name */
 div { }
 
-/* or its id */
+/* Selecting by id */
 #anID { }
 
-/* or using the fact that it has an attribute! */
+/* Selecting by attribute */
 [attr] { font-size:smaller; }
 
-/* or that the attribute has a specific value */
+/* Selecting by an attribute's value */
 [attr='value'] { font-size:smaller; }
 
-/* You can select an element which is a child of another element */
+/* Selecting the child of another element */
 div.some-parent > .class-name { }
 
-/* or a descendant of another element. Children are the direct descendants of
-   their parent element, only one level down the tree. Descendants can be any
-   level down the tree. */
+/* Selecting descendant of another element */
 div.some-parent .class-name { }
 
-/* You may also select an element based on its adjacent sibling */
+/* Selecting by adjacent siblings */
 .i-am-just-before + .this-element { }
 
-/* or any sibling preceding it */
+/* Selecting by preceding elements */
 .i-am-any-element-before ~ .this-element { }
 
-/* for example, when the cursor hovers over an element */
-selector:hover { }
 ```
 
 ### CSS Order of Precedence
 
-In css selectors can override other selectors based on specificity
+In CSS, selectors can override other selectors based on specificity
 
-Specificity Rule(Greatest to Least)
+Specificity Rule (Most to Least)
 
 1 Inline styles - styling the html directly on the html element
 
@@ -169,22 +165,103 @@ div {background-color: red;}
 ```
 
 ### Box Model
+The CSS box model is the box that wraps every single HTML element. This model consists of all of the visual formatting elements, such as border, padding, border-radius, and content.The details of the box model will be covered in the section below.
 
-### Visual Formatting: dimensions, display, and positioning
+### Visual Formatting: Dimensions, Display, and Positioning
+One of CSS's main roles is to format the content that is specified by the HTML. It performs formatting tasks using a variety of formatting attributes defined below.
+
+```
+.sample{
+
+    /* "display" specifies the display of the elements */
+    display: flex; 
+    
+    /* "position" specifies the type of positioning that should be used by an element */
+    position: relative;
+
+    /* "width" specifies the width of the elements and can be in a variety of units (i.e. em, rem, px, %)
+    width: 100%;
+
+    /* "height" specifies the height of the elements and can be in a variety of units (i.e. em, rem, px, %)
+    height: 250px;
+    
+    /* "margin" specifies the spacing between the selected element's box and neighboring elements */
+    margin: 1em;
+    
+    /* "padding" specifies the spacing between the content inside of an element's box and the edge of the box */
+    padding: 20px;
+}
+```
 
 #### Flexbox
+The Flexible Box, otherwise known as flexbox, offers simple yet powerful capabilities in aligning content on a page. We will be using this technique in the tutorial to layout content for the navigation bar and cards. Listed below are the common attributes of flexbox.
+
+```
+    .sample{
+    
+        /* Setting the "display" to "flex" allows the selected element to be a flexbox and use flexbox attributes */
+        display: flex;
+        
+        /* Using the "flex-direction" attribute sets the direction of alignment for the elements within the flexbox */
+        flex-direction: row; /* Can also be row, column, column-reverse, row-reverse */
+        
+        /* Using the "justify-content" attribute aligns the content along the main axis, which is defined by the flex-direction */
+        justify-content: center; /* Can also be flex-start, flex-end, etc. */
+        
+        /* Using the "align-items" attribute aligns the content along the perpendicular of the main axis */
+        align-items: center; /* Can also be flex-start, flex-end, etc. */
+        
+        /* Using the "flex-wrap" property wraps elements when they exceed the boundaries of the parent box */
+        flex-wrap: wrap;
+        
+    }
+```
 
 ### Colors and Backgrounds
+A page without colors can be bland. Therefore, being able to style the color of a page is an important characteristic of CSS. The two main types of color styling are demonstrated below.
+
+```
+    .sample{
+        
+        /* "color" sets the color of the text for the elements it is applied to */
+        color: purple;
+        
+        /* "background" sets the color of the background, which is the rest of the box that is not the content */
+        background: gray;
+        
+    }
+```
 
 ### Text and Fonts
+CSS can also be used to style and align textual content so that you can style content without styling the entire element box itself 
 
-### Animations
+```
+    .sample{
+        
+        /* "text-align" aligns the content within its enclosing element */
+        text-align: center; /* Can also be left, right, etc. */
+    
+        /* "font-family" defines the font that is used for an element
+        font-family: sans-serif;
+        
+        /* "font-size" defines the size that textual content should be in an element */
+        font-size: 2rem; /* Follows the same unit standards as defined above */
+    
+    }
+```
 
 ## Other Resources
 
-* [Name](https://url/) - example
-* [Name](https://url/) - example
-* [Name](https://url/) - example
+Reference Materials
+* W3 Schools HTML (https://www.w3schools.com/html/) - Reference for HTML
+* W3 Schools CSS (https://www.w3schools.com/css/) - Reference for CSS
+* W3 Schools JS (https://www.w3schools.com/js/) - Reference for JS
+* CSS Tricks (https://css-tricks.com/) - Helpful tutorials for CSS
+* Tutorials Point (https://www.tutorialspoint.com/) - Overall programming reference material
+
+Learning Platforms
+* Free Code Camp (https://www.freecodecamp.org/) - Front-end development learning platform
+* Code Academy (https://www.codecademy.com/) - General programming learning platform (includes front-end development)
 
 
 
