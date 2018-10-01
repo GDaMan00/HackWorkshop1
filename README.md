@@ -4,7 +4,7 @@ In this workshop, we are going to teach you common components front-end develope
 
 ## HTML Documentation
 
-HTML stands for HyperText Markup Language. It is a language which allows us to write web pages. It is a markup language that enables us to write web pages using code to indicate how text and data should be displayed. HTML files also end with the extension ".html".
+HTML stands for HyperText Markup Language. It is a markup language that enables us to write web pages using code to indicate how text and data should be displayed. HTML files also end with the extension ".html".
 
 ### HTML Template
 
@@ -34,7 +34,7 @@ Below is the common HTML structure
 * **\<body>** - Defines the document's body
 * **\<h1> to \<h6>** - Defines HTML headings
 * **\<p>** - Defines a paragraph
-* **\<br>** - Inserts a single line break
+* **\<br/>** - Inserts a single line break
 * **\<!--...-->** - Defines a comment
 * **\<ul>** - Defines a container for an unordered list
 * **\<ol>** - Defines a container for an ordered list
@@ -143,7 +143,7 @@ In CSS, selectors can override other selectors based on specificity
 
 Specificity Rule (Most to Least)
 
-1 Inline styles - styling the html directly on the html element
+1 Inline styles - styling the HTML directly on the HTML element
 
 ```
 <div style="background-color: red;">Inline Styling</div>
@@ -198,7 +198,7 @@ The Flexible Box, otherwise known as flexbox, offers simple yet powerful capabil
 
 ```
     .sample{
-    
+ 
         /* Setting the "display" to "flex" allows the selected element to be a flexbox and use flexbox attributes */
         display: flex;
         
@@ -212,8 +212,7 @@ The Flexible Box, otherwise known as flexbox, offers simple yet powerful capabil
         align-items: center; /* Can also be flex-start, flex-end, etc. */
         
         /* Using the "flex-wrap" property wraps elements when they exceed the boundaries of the parent box */
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;   
     }
 ```
 
