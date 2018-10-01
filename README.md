@@ -44,9 +44,43 @@ A step by step series of examples that tell you how to get a development env run
 * **\<img src="" alt="">** - Defines an image from the src value and gives alternative based on alt value
 * **\<div>** - Defines a container for elements
 * **\<section>** - Defines a container for elements
+* **\<span>** - Defines an inline container for elements(doesn't go to new line)
 
+Example of using the tags
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is a comment -->
+    <h1>This is a title tag</h1>
+    <p>This is a paragraph tag</p>
+    <p>example of <br>tag</p>
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+    </ul>
+    <ol>
+        <li>one</li>
+        <li>Two</li>
+    </ol>
+    <a href="path/to/file">link</a>
+    <img src="path/to/file" alt="image alternative">
+    <div>
+        example of using div<span>example of span</span>     
+    </div>
+    <section>example of section</section>
+</body>
+</html>
+```
 ### IDS vs CLASSES
 Ids are used to uniquely identify one element on the page while classes can be used to identify more than one element.
+
 ID example
 
 ```
