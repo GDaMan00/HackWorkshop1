@@ -95,22 +95,77 @@ Class example
 
 ## CSS DOCS
 
-CSS (Cascading Style Sheets) is a language which specifies a page’s appearance.
+CSS (Cascading Style Sheets) is a language which specifies a page’s appearance. CSS does this by selecting an element within the html and style it.
 
-### How 
+### How to select elements with css
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+Template of how css selects elements
 
 ```
-Give an example
+/* the selector is used to target an element on a page. */
+selector { property: value; /* more properties...*/ }
+```
+
+Examples of selecting elements
+```
+/* You can target it using one of its CSS classes */
+.class1 { }
+
+/* or its name */
+div { }
+
+/* or its id */
+#anID { }
+
+/* or using the fact that it has an attribute! */
+[attr] { font-size:smaller; }
+
+/* or that the attribute has a specific value */
+[attr='value'] { font-size:smaller; }
+
+/* You can select an element which is a child of another element */
+div.some-parent > .class-name { }
+
+/* or a descendant of another element. Children are the direct descendants of
+   their parent element, only one level down the tree. Descendants can be any
+   level down the tree. */
+div.some-parent .class-name { }
+
+/* You may also select an element based on its adjacent sibling */
+.i-am-just-before + .this-element { }
+
+/* or any sibling preceding it */
+.i-am-any-element-before ~ .this-element { }
+
+/* for example, when the cursor hovers over an element */
+selector:hover { }
+```
+
+### CSS Order of Precedence
+
+In css selectors can override other selectors based on specificity
+
+Specificity Rule(Greatest to Least)
+
+1 Inline styles - styling the html directly on the html element
+
+```
+<div style="background-color: red;">Inline Styling</div>
+```
+
+2 IDS
+```
+#id {background-color: red;}
+```
+
+3 Classes
+```
+.class {background-color: red;}
+```
+
+4 Elements
+```
+div {background-color: red;}
 ```
 
 ## Deployment
