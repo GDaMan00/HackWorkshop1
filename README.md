@@ -41,20 +41,23 @@ This is what the structure of an HTML Document look like
 * **\<li>** - Defines a single list items
 * **\<a href="">** - Defines a hyperlink, which is used to link from one page to another. Href indicates the link's destination.
 A step by step series of examples that tell you how to get a development env running
+* **\<img src="" alt="">** - Defines an image from the src value and gives alternative based on alt value
+* **\<div>** - Defines a container for elements
+* **\<section>** - Defines a container for elements
 
-Say what the step will be
+###IDS vs CLASSES
+Ids are used to uniquely identify one element on the page while classes can be used to identify more than one element.
+ID example
 
 ```
-Give the example
+<div id="example">Some text</div>
 ```
 
-And repeat
+Class example
 
 ```
-until finished
+<div class="example">Some text</div>
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## CSS DOCS
 
