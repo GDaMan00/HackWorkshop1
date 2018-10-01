@@ -167,18 +167,8 @@ div {background-color: red;}
 ### Box Model
 The CSS box model is the box that wraps every single HTML element. This model consists of all of the visual formatting elements, such as border, padding, border-radius, and content.The details of the box model will be covered in the section below.
 
-### Visual Formatting: Dimensions, Display, and Positioning
-One of CSS's main roles is to format the content that is specified by the HTML. It performs formatting tasks using a variety of formatting attributes defined below.
-
 ```
 .sample{
-
-    /* "display" specifies the display of the elements */
-    display: flex; 
-    
-    /* "position" specifies the type of positioning that should be used by an element */
-    position: relative;
-
     /* "width" specifies the width of the elements and can be in a variety of units (i.e. em, rem, px, %)
     width: 100%;
 
@@ -190,6 +180,34 @@ One of CSS's main roles is to format the content that is specified by the HTML. 
     
     /* "padding" specifies the spacing between the content inside of an element's box and the edge of the box */
     padding: 20px;
+
+    /* "border" specifies the styling of the edge of the box content
+}
+```
+
+### Visual Formatting: Dimensions, Display, and Positioning
+One of CSS's main roles is to format the content that is specified by the HTML. It performs formatting tasks using a variety of formatting attributes defined below.
+
+```
+.sample{
+
+    /* "display" specifies the display of the elements */
+    display: flex; 
+    
+    /* "position" specifies the type of positioning that should be used by an element */
+    position: relative;
+    
+    /* "top" specifies how far the content is relative to something else */
+    top: 20px;
+
+    /* "bottom" specifies how far the content is relative to something else */
+    bottom: 20px;
+
+    /* "left" specifies how far the content is relative to something else */
+    left: 20px;
+
+    /* "right" specifies how far the content is relative to something else */
+    right: 20px;
 }
 ```
 
