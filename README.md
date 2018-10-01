@@ -95,9 +95,9 @@ Class example
 
 ## CSS DOCS
 
-Explain how to run the automated tests for this system
+CSS (Cascading Style Sheets) is a language which specifies a page’s appearance.
 
-### Break down into end to end tests
+### How 
 
 Explain what these tests test and why
 
