@@ -1,6 +1,6 @@
 # Learn Frontend Workshop
 
-In this workshop, we are going to teach you common components front-end developers typically build for websites. You can use this document as a reference material for HTML and CSS.
+In this workshop, we are going to teach you common components front-end developers typically build for websites. You can use this document as reference material for HTML and CSS.
 
 ## HTML Documentation
 
