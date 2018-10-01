@@ -197,56 +197,56 @@ One of CSS's main roles is to format the content that is specified by the HTML. 
 The Flexible Box, otherwise known as flexbox, offers simple yet powerful capabilities in aligning content on a page. We will be using this technique in the tutorial to layout content for the navigation bar and cards. Listed below are the common attributes of flexbox.
 
 ```
-    .sample{
+.sample{
  
-        /* Setting the "display" to "flex" allows the selected element to be a flexbox and use flexbox attributes */
-        display: flex;
+    /* Setting the "display" to "flex" allows the selected element to be a flexbox and use flexbox attributes */
+    display: flex;
         
-        /* Using the "flex-direction" attribute sets the direction of alignment for the elements within the flexbox */
-        flex-direction: row; /* Can also be row, column, column-reverse, row-reverse */
+    /* Using the "flex-direction" attribute sets the direction of alignment for the elements within the flexbox */
+    flex-direction: row; /* Can also be row, column, column-reverse, row-reverse */
         
-        /* Using the "justify-content" attribute aligns the content along the main axis, which is defined by the flex-direction */
-        justify-content: center; /* Can also be flex-start, flex-end, etc. */
+    /* Using the "justify-content" attribute aligns the content along the main axis, which is defined by the flex-direction */
+    justify-content: center; /* Can also be flex-start, flex-end, etc. */
         
-        /* Using the "align-items" attribute aligns the content along the perpendicular of the main axis */
-        align-items: center; /* Can also be flex-start, flex-end, etc. */
+    /* Using the "align-items" attribute aligns the content along the perpendicular of the main axis */
+    align-items: center; /* Can also be flex-start, flex-end, etc. */
         
-        /* Using the "flex-wrap" property wraps elements when they exceed the boundaries of the parent box */
-        flex-wrap: wrap;   
-    }
+    /* Using the "flex-wrap" property wraps elements when they exceed the boundaries of the parent box */
+    flex-wrap: wrap;   
+}
 ```
 
 ### Colors and Backgrounds
 A page without colors can be bland. Therefore, being able to style the color of a page is an important characteristic of CSS. The two main types of color styling are demonstrated below.
 
 ```
-    .sample{
+.sample{
         
-        /* "color" sets the color of the text for the elements it is applied to */
-        color: purple;
+    /* "color" sets the color of the text for the elements it is applied to */
+    color: purple;
         
-        /* "background" sets the color of the background, which is the rest of the box that is not the content */
-        background: gray;
+    /* "background" sets the color of the background, which is the rest of the box that is not the content */
+    background: gray;
         
-    }
+}
 ```
 
 ### Text and Fonts
 CSS can also be used to style and align textual content so that you can style content without styling the entire element box itself 
 
 ```
-    .sample{
+.sample{
         
-        /* "text-align" aligns the content within its enclosing element */
-        text-align: center; /* Can also be left, right, etc. */
+    /* "text-align" aligns the content within its enclosing element */
+    text-align: center; /* Can also be left, right, etc. */
     
-        /* "font-family" defines the font that is used for an element
-        font-family: sans-serif;
+    /* "font-family" defines the font that is used for an element
+    font-family: sans-serif;
         
-        /* "font-size" defines the size that textual content should be in an element */
-        font-size: 2rem; /* Follows the same unit standards as defined above */
+    /* "font-size" defines the size that textual content should be in an element */
+    font-size: 2rem; /* Follows the same unit standards as defined above */
     
-    }
+}
 ```
 
 ## Other Resources
