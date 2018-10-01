@@ -45,7 +45,7 @@ A step by step series of examples that tell you how to get a development env run
 * **\<div>** - Defines a container for elements
 * **\<section>** - Defines a container for elements
 
-###IDS vs CLASSES
+### IDS vs CLASSES
 Ids are used to uniquely identify one element on the page while classes can be used to identify more than one element.
 ID example
 
