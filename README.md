@@ -168,17 +168,15 @@ Specificity Rule(Greatest to Least)
 div {background-color: red;}
 ```
 
-## Box Model
+### Box Model
 
-## Visual Formatting: dimensions, display, and positioning
+### Visual Formatting: dimensions, display, and positioning
 
-### Flexbox
+#### Flexbox
 
-## Colors and Backgrounds
+### Colors and Backgrounds
 
-## Text and Fonts
-
-
+### Text and Fonts
 
 ## Other Resources
 
