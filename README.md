@@ -285,5 +285,6 @@ Learning Platforms
 * Code Academy (https://www.codecademy.com/) - General programming learning platform (includes front-end development)
 * Froggy (flexbox) (https://flexboxfroggy.com/) - Interactive flexbox tutorial
 
-
+## Feedback
+https://goo.gl/forms/nzQL6aU2f42E1gWz2 
 
